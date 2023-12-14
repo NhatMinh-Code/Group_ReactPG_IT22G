@@ -1,0 +1,15 @@
+.Login {
+    margin-right: 10px;
+    width : 10px
+}
+.icon {
+    width: 27px; /* Điều chỉnh kích thước icon tại đây */
+    height: 27px; /* Điều chỉnh kích thước icon tại đây */
+    color: #0989ff;
+    margin-top: -2px;
+    cursor: pointer;
+    list-style-type: none;
+    user-select: none;
+    padding-left: 0;
+    
+  }

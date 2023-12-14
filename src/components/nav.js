@@ -4,6 +4,8 @@ import { AiOutlineHeart } from 'react-icons/ai';
 import { BsBagCheck } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import './nav.css'
+import './Login.css'
+import { IoPersonCircleOutline } from "react-icons/io5";
 const Nav = ({ searchbtn }) => {
 
     const [search, setSearch] = useState()
@@ -27,9 +29,16 @@ const Nav = ({ searchbtn }) => {
                     </div>
                     <div className='icon'>
                         <div className='second_icon'>
+
                             <Link to="/" className='link'>< AiOutlineHeart /></Link>
                             <Link to="/cart" className='link'>< BsBagCheck /></Link>
-                            <p></p>
+                            <li className = "Login">
+                            <IoPersonCircleOutline className = "icon" /> 
+                            </li>
+                            <p className = "Signup">
+                           </p>
+                            
+                            
 
                         </div>
                     </div>
